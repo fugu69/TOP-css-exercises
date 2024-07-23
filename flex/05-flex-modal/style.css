@@ -2,6 +2,7 @@
 
 html, body {
   height: 100%;
+  box-sizing: ;
 }
 
 body {
@@ -20,8 +21,31 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+  gap: 16px;
 }
 
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.big-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+.top-row {
+  display: flex;
+  justify-content: space-between;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
